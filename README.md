@@ -1,2 +1,2 @@
 # Snakes
-A simple snakes game written in JS using Electcron.
+A simple snakes game written in JS using Electron.
