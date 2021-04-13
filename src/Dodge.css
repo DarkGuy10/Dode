@@ -1,0 +1,60 @@
+/* General */
+* {
+	box-sizing: border-box;
+	overflow: hidden;
+	user-select: none;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #171717
+}
+
+
+/* topBar Contents */
+#topBar{
+	position: fixed;
+	top: 0; left:0;
+	height: 40px;
+	width: 100%;
+	display: block;
+	background-color: #272727;
+}
+
+#topBar > button {
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255, 255, 255, 0.3);
+	float: right;
+	color: white;
+	font-size: 17px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+#close:hover{
+	background-color: red;
+}
+
+#reload:hover{
+	background-color: #4CAF50;
+}
+
+#scoreBoard{
+	float: left;
+	color: white;
+	height: 40px;
+	padding: 12px 12px;
+	width: auto;
+	font-family: 'DejaVu Sans';
+	font-size: 16px;
+	letter-spacing: 1.5px;
+}
+
+canvas{
+	position: fixed;
+	bottom: 0;	left: 0;
+	background-color: transparent;
+}
